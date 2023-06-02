@@ -1,0 +1,36 @@
+@media screen and (max-width: 767px) {
+  #header {
+    padding: 38px 30px 58px 30px;
+  }
+  #header .header_all .header_top .header_top_right {
+    display: none;
+  }
+  #header .header_all .header_top .header_mobile {
+    display: block;
+  }
+  #header .header_all .header_bottom {
+    gap: 30px;
+  }
+  #header .header_all .header_bottom .header_bottom_left h1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  #header .header_all .header_bottom .header_bottom_left a {
+    padding: 6px 9px;
+  }
+  #header .header_all .header_bottom .header_bottom_left p {
+    font-size: 16px;
+  }
+  #footer {
+    height: auto;
+  }
+  #footer .footer_all nav ul {
+    flex-direction: column;
+  }
+  #footer .footer_all .search form input {
+    margin: auto;
+  }
+  #footer .footer_all .search form button {
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

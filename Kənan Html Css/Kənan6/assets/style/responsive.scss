@@ -1,0 +1,54 @@
+@media screen and (max-width: 767px) {
+    #header {
+        padding: 38px 30px 58px 30px;
+
+        .header_all {
+            .header_top {
+                .header_top_right {
+                    display: none;
+                }
+
+                .header_mobile {
+                    display: block;
+                }
+            }
+            .header_bottom {
+                gap: 30px;
+                .header_bottom_left {
+                    h1 {
+                        font-size: 28px;
+                    line-height: 30px;
+                    }
+                    a{
+                        padding: 6px 9px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+    
+                }
+            }
+        }
+    }
+    #footer {
+        height: auto;
+        .footer_all {
+            nav {
+                ul{
+                    flex-direction: column;
+                }
+            }
+            .search {
+                form{
+                    input{
+                        margin: auto;
+                    }
+                    button{
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+}

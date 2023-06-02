@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.title{
+    margin-top: 60px;
+    text-align: center;
+}
+.title h1{
+    font-size: 3.75rem;
+    line-height: 1.1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.title p{
+    font-size: 1.125rem;
+    max-width: 746px;
+    margin: 40px auto 0;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+.card{
+    width: 366px;
+    height: 352px;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8c593f782d1654b09c0aa7b3/jhjh688.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.card_text h2{
+    font-size: 1.625rem;
+    line-height: 1.2;
+    text-align: center;
+}
+.card_text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #674f9fb7;
+    height: 112px;
+}
+#img{
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/a24ad1604ec15337995a6352/g4.jpg);
+}
+#img2{
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/69a33e68ad385dc2a232048f/gfgggggggggg.jpg);
+}
+#img3{
+ background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/e2e39f17cead5a36875282db/fgfg.jpg);
+}
+#img4{
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/270c391596735803b0eb88f9/PSD_01.jpg);
+}
+#img5{
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/75434504afed529795968963/fff.jpg);
+}
